@@ -1,4 +1,4 @@
-# Dobot XYZ Controller -- Nintendo Switch Pro Controller
+# Dobot XYZ Controller -- DELTACO Switch Pro Controller
 
 ## 1. Project overview
 
@@ -34,7 +34,7 @@ The program is designed around hold-to-move interaction:
 The photograph below shows the physical robot workstation, including the robot arm,
 work surface, controller equipment and sample items used for the project.
 
-![Robot workstation and test setup](images/robot-workcell.jpg)
+![Robot workstation and test setup](./images/Image0.jpg)
 
 ## 2. Main features
 
@@ -58,12 +58,19 @@ work surface, controller equipment and sample items used for the project.
 ### Hardware
 
 -   Compatible Dobot robot and controller.
+![](./images/Image1.jpg)
+
 -   Windows PC or another computer supported by the installed Dobot SDK
     and `pygame`.
 -   Nintendo Switch Pro Controller.
+![](./images/Image3.jpg)
 -   Network connection between the PC and robot controller.
 -   Suitable, correctly configured robot safety equipment and a clear
     working area.
+- Vacume Gripper (Custom made)
+![](./images/Image2.jpg)
+- Vacume and Pressure Unit (Vacume controller)
+![](./images/Image4.jpg)
 
 ### Software
 
