@@ -721,13 +721,13 @@ errors should be logged and handled separately.
 ### Run the controller
 
 ``` bash
-python your_script.py
+python Dobot xyz controller v9.py
 ```
 
 ### Test the game controller
 
 ``` bash
-python your_script.py --test
+python joystick.py --test
 ```
 
 ### Install pygame
