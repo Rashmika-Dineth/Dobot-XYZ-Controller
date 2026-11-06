@@ -1,0 +1,172 @@
+2026-10-06 14:24:01,345 - INFO - robot.Connect:157 - 正在连接到机器人 192.168.1.100...
+2026-10-06 14:24:06,346 - ERROR - connection.connect:209 - TCP连接超时: 192.168.1.100:29999
+2026-10-06 14:24:06,347 - ERROR - 00_logging_demo.main:55 - 操作失败: 连接超时 (IP: 192.168.1.100, Port: 29999)
+Traceback (most recent call last):
+  File "E:\Nova_2\TCP-IP-Python-V4-feature-v4-optimization\..\dobot_sdk\core\connection.py", line 186, in connect
+    self._socket.connect((self.ip, self.port))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Nova_2\TCP-IP-Python-V4-feature-v4-optimization\examples\00_logging_demo.py", line 33, in main
+    robot.Connect()
+    ~~~~~~~~~~~~~^^
+  File "E:\Nova_2\TCP-IP-Python-V4-feature-v4-optimization\..\dobot_sdk\api\robot.py", line 158, in Connect
+    self._dashboard_conn.connect(actual_timeout)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nova_2\TCP-IP-Python-V4-feature-v4-optimization\..\dobot_sdk\core\connection.py", line 211, in connect
+    raise ConnectionError("连接超时", ip=self.ip, port=self.port)
+dobot_sdk.core.exceptions.ConnectionError: 连接超时 (IP: 192.168.1.100, Port: 29999)
+2026-10-06 14:24:06,350 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:24:06,350 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.1.100:29999
+2026-10-06 14:24:06,350 - WARNING - connection.disconnect:241 - TCP断开连接时发生错误: [WinError 10057] A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+2026-10-06 14:24:06,351 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.1.100:30004
+2026-10-06 14:24:06,351 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.1.100
+2026-10-06 14:24:06,352 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:24:06,352 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.1.100:29999
+2026-10-06 14:24:06,352 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.1.100:30004
+2026-10-06 14:24:06,352 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.1.100
+2026-10-06 14:24:06,352 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.1.100:30004
+2026-10-06 14:24:06,352 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.1.100:29999
+2026-10-06 14:24:20,495 - INFO - robot.Connect:157 - 正在连接到机器人 192.168.5.1...
+2026-10-06 14:24:20,507 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:29999
+2026-10-06 14:24:20,508 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:30004
+2026-10-06 14:24:20,508 - INFO - robot.Connect:167 - 机器人连接成功: 192.168.5.1
+2026-10-06 14:24:20,509 - DEBUG - connection.send_text:262 - 发送命令: RequestControl()
+2026-10-06 14:24:20,510 - DEBUG - connection.receive_text:293 - 接收响应: -1,{},RequestControl();
+2026-10-06 14:24:20,510 - DEBUG - connection.send_text:262 - 发送命令: ClearError()
+2026-10-06 14:24:20,512 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:20,512 - DEBUG - connection.send_text:262 - 发送命令: EnableRobot()
+2026-10-06 14:24:20,513 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:20,514 - DEBUG - connection.send_text:262 - 发送命令: SpeedFactor(50)
+2026-10-06 14:24:20,515 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:20,516 - DEBUG - connection.send_text:262 - 发送命令: MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000})
+2026-10-06 14:24:20,517 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:20,517 - DEBUG - connection.send_text:262 - 发送命令: DisableRobot()
+2026-10-06 14:24:20,518 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:20,518 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:24:20,518 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:24:20,519 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:29999
+2026-10-06 14:24:20,519 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:24:20,519 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:30004
+2026-10-06 14:24:20,519 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:24:20,520 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:24:20,520 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:24:20,520 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:24:20,521 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:24:20,521 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:24:20,521 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:24:20,982 - INFO - robot.Connect:157 - 正在连接到机器人 192.168.5.1...
+2026-10-06 14:24:20,994 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:29999
+2026-10-06 14:24:20,996 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:30004
+2026-10-06 14:24:20,996 - INFO - robot.Connect:167 - 机器人连接成功: 192.168.5.1
+2026-10-06 14:24:20,997 - DEBUG - connection.send_text:262 - 发送命令: RequestControl()
+2026-10-06 14:24:20,998 - DEBUG - connection.receive_text:293 - 接收响应: -1,{},RequestControl();
+2026-10-06 14:24:20,998 - DEBUG - connection.send_text:262 - 发送命令: ClearError()
+2026-10-06 14:24:21,000 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:21,000 - DEBUG - connection.send_text:262 - 发送命令: EnableRobot()
+2026-10-06 14:24:21,001 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:21,001 - DEBUG - connection.send_text:262 - 发送命令: SpeedFactor(50)
+2026-10-06 14:24:21,003 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:21,003 - DEBUG - connection.send_text:262 - 发送命令: MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000})
+2026-10-06 14:24:21,004 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:21,004 - DEBUG - connection.send_text:262 - 发送命令: DisableRobot()
+2026-10-06 14:24:21,005 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:21,005 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:24:21,006 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:24:21,006 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:29999
+2026-10-06 14:24:21,006 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:24:21,006 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:30004
+2026-10-06 14:24:21,006 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:24:21,006 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:24:21,007 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:24:21,007 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:24:21,007 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:24:21,007 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:24:21,007 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:24:34,844 - INFO - robot.Connect:157 - 正在连接到机器人 192.168.5.1...
+2026-10-06 14:24:34,856 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:29999
+2026-10-06 14:24:34,857 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:30004
+2026-10-06 14:24:34,857 - INFO - robot.Connect:167 - 机器人连接成功: 192.168.5.1
+2026-10-06 14:24:34,858 - DEBUG - connection.send_text:262 - 发送命令: RequestControl()
+2026-10-06 14:24:34,859 - DEBUG - connection.receive_text:293 - 接收响应: -1,{},RequestControl();
+2026-10-06 14:24:34,859 - DEBUG - connection.send_text:262 - 发送命令: ClearError()
+2026-10-06 14:24:34,860 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:34,861 - DEBUG - connection.send_text:262 - 发送命令: EnableRobot()
+2026-10-06 14:24:34,861 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:34,862 - DEBUG - connection.send_text:262 - 发送命令: SpeedFactor(50)
+2026-10-06 14:24:34,863 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:34,863 - DEBUG - connection.send_text:262 - 发送命令: MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000})
+2026-10-06 14:24:34,864 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:34,865 - DEBUG - connection.send_text:262 - 发送命令: DisableRobot()
+2026-10-06 14:24:34,866 - DEBUG - connection.receive_text:293 - 接收响应: Control Mode Is Not Tcp
+2026-10-06 14:24:34,866 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:24:34,867 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:24:34,867 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:29999
+2026-10-06 14:24:34,868 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:24:34,868 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:30004
+2026-10-06 14:24:34,869 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:24:34,869 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:24:34,869 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:24:34,869 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:24:34,870 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:24:34,870 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:24:34,870 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:39:02,119 - INFO - robot.Connect:157 - 正在连接到机器人 192.168.5.1...
+2026-10-06 14:39:02,132 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:29999
+2026-10-06 14:39:02,134 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:30004
+2026-10-06 14:39:02,135 - INFO - robot.Connect:167 - 机器人连接成功: 192.168.5.1
+2026-10-06 14:39:02,136 - DEBUG - connection.send_text:262 - 发送命令: RequestControl()
+2026-10-06 14:39:02,137 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},RequestControl();
+2026-10-06 14:39:02,137 - DEBUG - connection.send_text:262 - 发送命令: ClearError()
+2026-10-06 14:39:02,141 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},ClearError();
+2026-10-06 14:39:02,142 - DEBUG - connection.send_text:262 - 发送命令: EnableRobot()
+2026-10-06 14:39:02,144 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},EnableRobot();
+2026-10-06 14:39:02,145 - DEBUG - connection.send_text:262 - 发送命令: SpeedFactor(50)
+2026-10-06 14:39:02,150 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},SpeedFactor(50);
+2026-10-06 14:39:02,151 - DEBUG - connection.send_text:262 - 发送命令: MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000})
+2026-10-06 14:39:02,162 - DEBUG - connection.receive_text:293 - 接收响应: 0,{2},MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000});
+2026-10-06 14:39:02,162 - DEBUG - connection.send_text:262 - 发送命令: DisableRobot()
+2026-10-06 14:39:02,227 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},DisableRobot();
+2026-10-06 14:39:02,228 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:39:02,228 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:39:02,229 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:29999
+2026-10-06 14:39:02,229 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:39:02,229 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:30004
+2026-10-06 14:39:02,229 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:39:02,230 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:39:02,230 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:39:02,230 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:39:02,230 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:39:02,230 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:39:02,230 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:39:24,907 - INFO - robot.Connect:157 - 正在连接到机器人 192.168.5.1...
+2026-10-06 14:39:24,918 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:29999
+2026-10-06 14:39:24,920 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:30004
+2026-10-06 14:39:24,920 - INFO - robot.Connect:167 - 机器人连接成功: 192.168.5.1
+2026-10-06 14:39:24,920 - DEBUG - connection.send_text:262 - 发送命令: RequestControl()
+2026-10-06 14:39:24,922 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},RequestControl();
+2026-10-06 14:39:24,922 - DEBUG - connection.send_text:262 - 发送命令: ClearError()
+2026-10-06 14:39:24,925 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},ClearError();
+2026-10-06 14:39:24,925 - DEBUG - connection.send_text:262 - 发送命令: EnableRobot()
+2026-10-06 14:39:25,914 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},EnableRobot();
+2026-10-06 14:39:25,915 - DEBUG - connection.send_text:262 - 发送命令: SpeedFactor(50)
+2026-10-06 14:39:25,920 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},SpeedFactor(50);
+2026-10-06 14:39:25,921 - DEBUG - connection.send_text:262 - 发送命令: MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000})
+2026-10-06 14:39:25,929 - DEBUG - connection.receive_text:293 - 接收响应: 0,{3},MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000});
+2026-10-06 14:39:25,929 - DEBUG - connection.send_text:262 - 发送命令: DisableRobot()
+2026-10-06 14:39:25,995 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},DisableRobot();
+2026-10-06 14:39:25,995 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:39:25,995 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:39:25,996 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:29999
+2026-10-06 14:39:25,996 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:39:25,997 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:30004
+2026-10-06 14:39:25,998 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:39:25,998 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-06 14:39:25,999 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-06 14:39:25,999 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:39:25,999 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-06 14:39:26,000 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-06 14:39:26,000 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999

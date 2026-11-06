@@ -1,0 +1,51 @@
+2026-11-04 11:09:04,469 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-11-04 11:09:04,473 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-11-04 11:09:04,475 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-11-04 11:09:04,476 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-11-04 11:09:05,539 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-11-04 11:09:13,641 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-11-04 11:09:13,642 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-11-04 11:09:13,643 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-11-04 11:09:13,646 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-11-04 11:09:13,646 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-11-04 11:09:13,646 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-11-04 11:09:13,647 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-11-04 11:09:13,647 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-11-04 11:09:13,647 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-11-04 11:09:13,647 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-11-04 11:09:13,648 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-11-04 11:09:13,648 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-11-04 11:09:40,728 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-11-04 11:09:40,730 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-11-04 11:09:40,742 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-11-04 11:09:40,743 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-11-04 11:09:41,805 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-11-04 11:09:49,906 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-11-04 11:09:49,906 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-11-04 11:09:49,906 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-11-04 11:09:49,907 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-11-04 11:09:49,907 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-11-04 11:09:49,907 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-11-04 11:09:49,908 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-11-04 11:09:49,908 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-11-04 11:09:49,908 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-11-04 11:09:49,908 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-11-04 11:09:49,908 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-11-04 11:09:49,909 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-11-04 12:21:50,802 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-11-04 12:21:50,815 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-11-04 12:21:50,817 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-11-04 12:21:50,817 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-11-04 12:21:51,989 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-11-04 12:22:00,087 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-11-04 12:22:00,087 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-11-04 12:22:00,088 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-11-04 12:22:00,088 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-11-04 12:22:00,088 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-11-04 12:22:00,089 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-11-04 12:22:00,089 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-11-04 12:22:00,089 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-11-04 12:22:00,089 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-11-04 12:22:00,089 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-11-04 12:22:00,089 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-11-04 12:22:00,090 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999

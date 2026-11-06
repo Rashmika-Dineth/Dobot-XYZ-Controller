@@ -1,0 +1,1148 @@
+2026-10-28 17:39:37,644 - INFO - robot.Connect:157 - 正在连接到机器人 192.168.5.1...
+2026-10-28 17:39:37,652 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:29999
+2026-10-28 17:39:37,654 - INFO - connection.connect:199 - TCP连接成功: 192.168.5.1:30004
+2026-10-28 17:39:37,655 - INFO - robot.Connect:167 - 机器人连接成功: 192.168.5.1
+2026-10-28 17:39:37,655 - DEBUG - connection.send_text:262 - 发送命令: RequestControl()
+2026-10-28 17:39:37,656 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},RequestControl();
+2026-10-28 17:39:37,657 - DEBUG - connection.send_text:262 - 发送命令: ClearError()
+2026-10-28 17:39:37,690 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},ClearError();
+2026-10-28 17:39:37,693 - DEBUG - connection.send_text:262 - 发送命令: EnableRobot()
+2026-10-28 17:39:38,688 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},EnableRobot();
+2026-10-28 17:39:38,688 - DEBUG - connection.send_text:262 - 发送命令: SpeedFactor(50)
+2026-10-28 17:39:38,691 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},SpeedFactor(50);
+2026-10-28 17:39:38,693 - DEBUG - connection.send_text:262 - 发送命令: MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000})
+2026-10-28 17:39:38,695 - DEBUG - connection.receive_text:293 - 接收响应: -7,{},MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000});
+2026-10-28 17:39:38,695 - DEBUG - connection.send_text:262 - 发送命令: DisableRobot()
+2026-10-28 17:39:38,761 - DEBUG - connection.receive_text:293 - 接收响应: 0,{},DisableRobot();
+2026-10-28 17:39:38,761 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-28 17:39:38,761 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-28 17:39:38,761 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:29999
+2026-10-28 17:39:38,761 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-28 17:39:38,762 - INFO - connection.disconnect:239 - TCP连接已断开: 192.168.5.1:30004
+2026-10-28 17:39:38,762 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-28 17:39:38,762 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-28 17:39:38,762 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-28 17:39:38,762 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-28 17:39:38,762 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-28 17:39:38,763 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:30004
+2026-10-28 17:39:38,763 - INFO - connection._stop_reconnect_loop:113 - 自动重连已停止: 192.168.5.1:29999
+2026-10-28 17:43:35,742 - INFO - robot.Connect:157 - 正在连接到机器人 192.168.5.1...
+2026-10-28 17:43:35,754 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 17:43:35,757 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 17:43:35,758 - INFO - robot.Connect:167 - 机器人连接成功: 192.168.5.1
+2026-10-28 17:43:35,758 - DEBUG - connection.send_text:322 - Command sent: RequestControl()
+2026-10-28 17:43:35,759 - DEBUG - connection.receive_text:354 - Response received: 0,{},RequestControl();
+2026-10-28 17:43:35,760 - DEBUG - connection.send_text:322 - Command sent: ClearError()
+2026-10-28 17:43:35,792 - DEBUG - connection.receive_text:354 - Response received: 0,{},ClearError();
+2026-10-28 17:43:35,792 - DEBUG - connection.send_text:322 - Command sent: EnableRobot()
+2026-10-28 17:43:36,787 - DEBUG - connection.receive_text:354 - Response received: 0,{},EnableRobot();
+2026-10-28 17:43:36,787 - DEBUG - connection.send_text:322 - Command sent: SpeedFactor(50)
+2026-10-28 17:43:36,790 - DEBUG - connection.receive_text:354 - Response received: 0,{},SpeedFactor(50);
+2026-10-28 17:43:36,790 - DEBUG - connection.send_text:322 - Command sent: MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000})
+2026-10-28 17:43:36,792 - DEBUG - connection.receive_text:354 - Response received: -7,{},MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000});
+2026-10-28 17:43:36,792 - DEBUG - connection.send_text:322 - Command sent: DisableRobot()
+2026-10-28 17:43:36,859 - DEBUG - connection.receive_text:354 - Response received: 0,{},DisableRobot();
+2026-10-28 17:43:36,859 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-28 17:43:36,859 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:43:36,859 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 17:43:36,859 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:43:36,860 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 17:43:36,860 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-28 17:43:36,860 - INFO - robot.StopFeedbackMonitor:229 - 状态监控已停止
+2026-10-28 17:43:36,860 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:43:36,860 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:43:36,861 - INFO - robot.Disconnect:194 - 机器人已断开连接: 192.168.5.1
+2026-10-28 17:43:36,861 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:43:36,861 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:45:16,910 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 17:45:16,922 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 17:45:16,924 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 17:45:16,925 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 17:45:16,925 - DEBUG - connection.send_text:322 - Command sent: RequestControl()
+2026-10-28 17:45:16,926 - DEBUG - connection.receive_text:354 - Response received: 0,{},RequestControl();
+2026-10-28 17:45:16,927 - DEBUG - connection.send_text:322 - Command sent: ClearError()
+2026-10-28 17:45:16,948 - DEBUG - connection.receive_text:354 - Response received: 0,{},ClearError();
+2026-10-28 17:45:16,949 - DEBUG - connection.send_text:322 - Command sent: EnableRobot()
+2026-10-28 17:45:17,939 - DEBUG - connection.receive_text:354 - Response received: 0,{},EnableRobot();
+2026-10-28 17:45:17,940 - DEBUG - connection.send_text:322 - Command sent: SpeedFactor(50)
+2026-10-28 17:45:17,943 - DEBUG - connection.receive_text:354 - Response received: 0,{},SpeedFactor(50);
+2026-10-28 17:45:17,944 - DEBUG - connection.send_text:322 - Command sent: MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000})
+2026-10-28 17:45:17,946 - DEBUG - connection.receive_text:354 - Response received: -7,{},MovL(pose={400.000000,0.000000,300.000000,180.000000,0.000000,0.000000});
+2026-10-28 17:45:17,946 - DEBUG - connection.send_text:322 - Command sent: DisableRobot()
+2026-10-28 17:45:18,012 - DEBUG - connection.receive_text:354 - Response received: 0,{},DisableRobot();
+2026-10-28 17:45:18,013 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 17:45:18,013 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:45:18,014 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 17:45:18,014 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:45:18,015 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 17:45:18,016 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 17:45:18,016 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 17:45:18,017 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:45:18,018 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:45:18,018 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 17:45:18,019 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:45:18,019 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:53:41,119 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 17:53:41,132 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 17:53:41,144 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 17:53:41,144 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 17:53:41,144 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 17:53:41,146 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 17:53:41,148 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 17:53:41,148 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 17:53:41,149 - DEBUG - connection.send_text:322 - Command sent: RequestControl()
+2026-10-28 17:53:41,150 - DEBUG - connection.receive_text:354 - Response received: 0,{},RequestControl();
+2026-10-28 17:53:41,151 - DEBUG - connection.send_text:322 - Command sent: ClearError()
+2026-10-28 17:53:41,184 - DEBUG - connection.receive_text:354 - Response received: 0,{},ClearError();
+2026-10-28 17:53:41,184 - DEBUG - connection.send_text:322 - Command sent: EnableRobot(1.000000)
+2026-10-28 17:53:42,181 - DEBUG - connection.receive_text:354 - Response received: 0,{},EnableRobot(1.000000);
+2026-10-28 17:53:42,182 - DEBUG - connection.send_text:322 - Command sent: SpeedFactor(50)
+2026-10-28 17:53:42,188 - DEBUG - connection.receive_text:354 - Response received: 0,{},SpeedFactor(50);
+2026-10-28 17:53:42,189 - DEBUG - connection.send_text:322 - Command sent: RobotMode()
+2026-10-28 17:53:42,190 - DEBUG - connection.receive_text:354 - Response received: 0,{10},RobotMode();
+2026-10-28 17:53:47,193 - DEBUG - connection.send_text:322 - Command sent: DisableRobot()
+2026-10-28 17:53:47,261 - DEBUG - connection.receive_text:354 - Response received: 0,{},DisableRobot();
+2026-10-28 17:53:47,262 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 17:53:47,262 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:53:47,263 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 17:53:47,263 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:53:47,263 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 17:53:47,264 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 17:53:47,264 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 17:53:47,264 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:53:47,264 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:53:47,264 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 17:53:47,264 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 17:53:47,265 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:53:47,265 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:53:47,265 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 17:53:47,265 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:53:47,266 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:59:22,657 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 17:59:22,669 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 17:59:22,671 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 17:59:22,671 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 17:59:22,672 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 17:59:22,674 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 17:59:22,676 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 17:59:22,676 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 17:59:22,676 - DEBUG - connection.send_text:322 - Command sent: RequestControl()
+2026-10-28 17:59:22,678 - DEBUG - connection.receive_text:354 - Response received: 0,{},RequestControl();
+2026-10-28 17:59:22,678 - DEBUG - connection.send_text:322 - Command sent: ClearError()
+2026-10-28 17:59:22,700 - DEBUG - connection.receive_text:354 - Response received: 0,{},ClearError();
+2026-10-28 17:59:22,701 - DEBUG - connection.send_text:322 - Command sent: EnableRobot(1.000000)
+2026-10-28 17:59:23,687 - DEBUG - connection.receive_text:354 - Response received: 0,{},EnableRobot(1.000000);
+2026-10-28 17:59:23,688 - DEBUG - connection.send_text:322 - Command sent: SpeedFactor(50)
+2026-10-28 17:59:23,692 - DEBUG - connection.receive_text:354 - Response received: 0,{},SpeedFactor(50);
+2026-10-28 17:59:23,693 - DEBUG - connection.send_text:322 - Command sent: RobotMode()
+2026-10-28 17:59:23,695 - DEBUG - connection.receive_text:354 - Response received: 0,{10},RobotMode();
+2026-10-28 17:59:23,697 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 17:59:23,697 - DEBUG - connection.receive_bytes:397 - Received byte data: 144000 bytes
+2026-10-28 17:59:23,698 - DEBUG - connection.receive_bytes:397 - Received byte data: 36000 bytes
+2026-10-28 17:59:23,705 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,713 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,721 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,729 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,738 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,746 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,754 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,762 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,770 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,778 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,787 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,795 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,803 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,811 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,819 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,828 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,836 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,844 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,853 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,861 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,869 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,877 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,885 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,893 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,902 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,910 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,918 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,926 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,935 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,942 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,951 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,959 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,967 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,975 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,984 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:23,992 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,000 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,008 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,017 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,025 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,033 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,041 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,050 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,058 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,066 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,074 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,083 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,091 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,099 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,107 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,115 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,123 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,132 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,140 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,148 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,156 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,164 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,172 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,181 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,189 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,197 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,206 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,214 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,222 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,230 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,238 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,247 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,255 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,263 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,271 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,279 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,287 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,296 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,304 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,312 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,320 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,328 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,337 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,345 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,353 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,361 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,370 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,378 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,386 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,394 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,402 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,410 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,419 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,427 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,435 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,443 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,452 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,459 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,468 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,476 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,484 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,492 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,501 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,509 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,517 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,525 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,534 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,542 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,550 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,559 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,567 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,575 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,583 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,591 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,600 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,608 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,616 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,624 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,632 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,640 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,648 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,656 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,665 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,673 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,681 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,689 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,698 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,706 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,714 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,722 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,730 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,738 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,747 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,755 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,763 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,772 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,779 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,787 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,796 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,804 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,812 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,820 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,829 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,837 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,845 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,853 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,862 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,870 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,878 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,886 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,894 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,902 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,911 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,919 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,927 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,936 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,943 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,952 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,960 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,968 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,976 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,985 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:24,993 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,001 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,009 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,018 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,026 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,035 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,042 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,051 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,059 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,067 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,075 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,083 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,091 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,100 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,108 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,117 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,125 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,133 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,141 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,149 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,157 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,165 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,174 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,182 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,190 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,198 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,207 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,215 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,223 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,231 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,239 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,248 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,256 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,264 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,272 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,280 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,289 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,297 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,305 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,313 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,321 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,330 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,338 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,346 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,354 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,362 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,370 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,378 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,387 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,395 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,403 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,411 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,419 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,428 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,436 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,444 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,452 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,460 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,469 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,477 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,485 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,493 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,501 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,509 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,518 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,526 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,534 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,542 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,550 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,558 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,567 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,575 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,583 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,591 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,599 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,608 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,616 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,624 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,632 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,640 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,648 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,657 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,665 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,673 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,681 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,690 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,698 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,706 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,714 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,722 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,730 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,739 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,747 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,755 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,763 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,771 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,779 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,788 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,796 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,804 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,812 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,820 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,829 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,837 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,845 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,854 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,862 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,870 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,878 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,887 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,895 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,903 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,911 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,919 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,927 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,936 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,944 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,952 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,960 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,969 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,977 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,985 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:25,993 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,001 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,009 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,018 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,025 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,034 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,042 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,050 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,058 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,067 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,074 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,083 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,091 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,099 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,107 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,116 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,124 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,133 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,142 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,150 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,158 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,168 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,174 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,185 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,191 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,199 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,207 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,215 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,223 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,232 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,240 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,248 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,256 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,264 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,272 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,281 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,289 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,297 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,305 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,313 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,322 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,330 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,338 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,346 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,354 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,363 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,371 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,379 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,387 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,395 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,404 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,412 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,420 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,428 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,436 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,445 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,453 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,461 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,469 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,478 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,486 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,494 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,502 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,510 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,519 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,527 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,535 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,543 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,552 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,559 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,568 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,576 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,584 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,592 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,601 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,608 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,617 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,625 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,633 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,641 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,650 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,658 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,666 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,674 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,682 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,691 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,699 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,707 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,715 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,724 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,731 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,739 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,748 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,756 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,764 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,772 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,780 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,789 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,797 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,805 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,813 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,821 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,829 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,838 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,846 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,855 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,863 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,871 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,879 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,887 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,895 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,904 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,912 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,920 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,928 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,936 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,944 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,953 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,961 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,969 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,977 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,986 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:26,994 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,002 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,010 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,019 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,027 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,035 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,043 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,051 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,059 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,068 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,075 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,084 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,092 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,100 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,108 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,117 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,125 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,133 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,141 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,149 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,157 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,166 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,174 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,182 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,190 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,198 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,207 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,215 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,223 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,231 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,239 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,247 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,256 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,264 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,272 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,280 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,288 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,296 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,305 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,313 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,321 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,329 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,337 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,346 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,354 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,362 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,370 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,379 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,387 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,395 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,403 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,412 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,420 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,428 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,436 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,444 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,452 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,460 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,469 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,477 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,485 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,493 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,502 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,510 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,519 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,527 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,535 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,543 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,552 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,559 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,568 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,576 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,584 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,592 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,601 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,608 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,617 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,625 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,633 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,641 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,650 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,658 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,667 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,674 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,683 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,691 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,699 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,707 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,716 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,724 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,732 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,740 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,748 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,756 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,764 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,772 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,781 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,789 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,797 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,806 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,814 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,822 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,830 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,838 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,846 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,855 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,863 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,871 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,879 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,888 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,896 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,904 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,912 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,920 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,928 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,937 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,945 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,953 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,962 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,970 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,978 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,986 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:27,994 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,003 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,011 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,019 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,027 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,035 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,044 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,052 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,060 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,068 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,077 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,085 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,093 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,102 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,109 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,118 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,126 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,135 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,142 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,151 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,159 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,167 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,175 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,184 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,191 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,200 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,208 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,216 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,224 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,233 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,241 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,249 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,257 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,265 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,273 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,282 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,290 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,298 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,306 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,314 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,322 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,331 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,339 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,347 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,355 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,364 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,372 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,380 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,388 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,397 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,405 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,413 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,421 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,430 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,438 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,446 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,454 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,462 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,471 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,479 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,487 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,495 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,504 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,512 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,520 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,529 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,537 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,545 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,553 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,561 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,570 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,578 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,586 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,594 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,603 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,611 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,619 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,627 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,635 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,643 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,652 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,660 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,668 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,676 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,685 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,692 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,701 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,709 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,718 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,725 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,734 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,742 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,750 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,758 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,767 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,808 - DEBUG - connection.receive_bytes:397 - Received byte data: 7200 bytes
+2026-10-28 17:59:28,826 - DEBUG - connection.receive_bytes:397 - Received byte data: 2880 bytes
+2026-10-28 17:59:28,832 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,840 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,848 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,857 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,865 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,873 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,881 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,889 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,898 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,906 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,914 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,922 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,931 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,939 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,947 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,955 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,963 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,971 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,980 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,988 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:28,996 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,004 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,012 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,020 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,028 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,037 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,045 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,053 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,061 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,070 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,078 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,086 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,094 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,102 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,111 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,119 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,127 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,135 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,143 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,152 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,160 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,168 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,176 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,185 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,193 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,201 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,210 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,218 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,226 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,235 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,242 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,251 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,259 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,267 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,275 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,283 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,291 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,300 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,308 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,316 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,324 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,333 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,341 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,349 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,357 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,366 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,374 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,383 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,390 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,399 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,407 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,415 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,423 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,431 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,440 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,448 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,456 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,464 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,472 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,480 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,489 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,497 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,505 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,513 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,521 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,530 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,538 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,546 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,555 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,563 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,571 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,579 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,588 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,595 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,604 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,612 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,620 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,628 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,636 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,644 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,653 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,690 - DEBUG - connection.receive_bytes:397 - Received byte data: 5760 bytes
+2026-10-28 17:59:29,695 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,704 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,707 - DEBUG - connection.send_text:322 - Command sent: DisableRobot()
+2026-10-28 17:59:29,711 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,726 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,728 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,735 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,743 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,752 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,759 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,768 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,773 - DEBUG - connection.receive_text:354 - Response received: 0,{},DisableRobot();
+2026-10-28 17:59:29,776 - DEBUG - connection.receive_bytes:397 - Received byte data: 1440 bytes
+2026-10-28 17:59:29,776 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 17:59:29,776 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:59:29,777 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 17:59:29,777 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:59:29,777 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 17:59:29,777 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 17:59:29,777 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 17:59:29,777 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:59:29,777 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:59:29,777 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 17:59:29,777 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 17:59:29,777 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 17:59:29,778 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:59:29,778 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 17:59:29,778 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 17:59:29,778 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:01:31,734 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:01:31,736 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:01:31,737 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:01:31,737 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:01:31,738 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:01:31,739 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:01:31,741 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:01:31,741 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:01:38,936 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:01:38,937 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:01:38,937 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:01:38,937 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:01:38,938 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:01:38,939 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:01:38,940 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:01:38,940 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:01:38,940 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:01:38,940 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:01:38,940 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:01:38,940 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:01:38,941 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:01:38,941 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:01:38,941 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:01:38,941 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:03:38,594 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:03:38,607 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:03:38,610 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:03:38,610 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:03:38,610 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:03:38,622 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:03:38,635 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:03:38,635 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:03:48,732 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:03:48,732 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:03:48,733 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:03:48,733 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:03:48,734 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:03:48,734 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:03:48,734 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:03:48,734 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:03:48,734 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:03:48,735 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:03:48,735 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:03:48,735 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:03:48,735 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:03:48,735 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:03:48,735 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:03:48,735 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:04:46,967 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:04:46,980 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:04:46,992 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:04:46,992 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:04:46,992 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:04:46,994 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:04:46,996 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:04:46,997 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:04:48,034 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:04:57,107 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:04:57,107 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:04:57,108 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:04:57,108 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:04:57,108 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:04:57,108 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:04:57,108 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:04:57,109 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:04:57,109 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:04:57,109 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:04:57,109 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:04:57,110 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:04:57,110 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:04:57,110 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:04:57,110 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:04:57,110 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:05:41,289 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:05:41,301 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:05:41,303 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:05:41,304 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:05:42,323 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:05:51,399 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:05:51,399 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:05:51,400 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:05:51,400 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:05:51,400 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:05:51,401 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:05:51,401 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:05:51,401 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:05:51,401 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:05:51,402 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:05:51,402 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:05:51,402 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:05:51,402 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:05:51,402 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:05:51,402 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:05:51,403 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:18:22,512 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:18:27,513 - ERROR - connection.connect:251 - TCP connection timed out: 192.168.5.1:29999
+2026-10-28 18:18:27,519 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:18:27,519 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:18:27,519 - WARNING - connection.disconnect:297 - An error occurred while closing the TCP connection: [WinError 10057] A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+2026-10-28 18:18:27,520 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:18:27,520 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:18:27,520 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:18:27,521 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:18:53,003 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:18:53,017 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:18:53,029 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:18:53,030 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:18:53,066 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:19:02,154 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:19:02,155 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:19:02,155 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:19:02,155 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:19:02,156 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:19:02,156 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:19:02,156 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:19:02,156 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:19:02,157 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:19:02,157 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:19:02,157 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:19:02,158 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:26:04,599 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:26:04,612 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:26:04,623 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:26:04,624 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:26:05,674 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:26:05,776 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:26:05,776 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:26:05,777 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:26:05,777 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:26:05,777 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:26:05,777 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:26:05,778 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:26:05,778 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:26:05,778 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:26:05,778 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:26:05,779 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:26:05,779 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:26:28,757 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:26:28,769 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:26:28,770 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:26:28,770 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:26:29,799 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:26:30,872 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:26:30,873 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:26:30,873 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:26:30,873 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:26:30,873 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:26:30,874 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:26:30,874 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:26:30,874 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:26:30,874 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:26:30,875 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:26:30,875 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:26:30,875 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:33:08,691 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:33:08,703 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:33:08,705 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:33:08,705 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:33:09,821 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:33:10,896 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:33:10,896 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:33:10,897 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:33:10,897 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:33:10,897 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:33:10,897 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:33:10,897 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:33:10,897 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:33:10,897 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:33:10,897 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:33:10,898 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:33:10,898 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:35:34,277 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:35:34,289 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:35:34,291 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:35:34,291 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:35:35,339 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:35:36,435 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:35:36,435 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:35:36,435 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:35:36,436 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:35:36,436 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:35:36,436 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:35:36,436 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:35:36,436 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:35:36,436 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:35:36,436 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:35:36,436 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:35:36,436 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:35:49,241 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:35:49,253 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:35:49,255 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:35:49,255 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:35:50,295 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:35:51,386 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:35:51,386 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:35:51,386 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:35:51,386 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:35:51,387 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:35:51,387 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:35:51,387 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:35:51,387 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:35:51,388 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:35:51,388 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:35:51,388 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:35:51,388 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:36:34,108 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:36:34,110 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:36:34,122 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:36:34,123 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:36:35,179 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:36:36,276 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:36:36,276 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:36:36,276 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:36:36,277 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:36:36,277 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:36:36,277 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:36:36,277 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:36:36,277 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:36:36,278 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:36:36,278 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:36:36,278 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:36:36,279 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:36:56,306 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:36:56,308 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:36:56,309 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:36:56,310 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:36:57,402 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:37:05,501 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:37:05,502 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:37:05,502 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:37:05,502 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:37:05,502 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:37:05,503 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:37:05,503 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:37:05,503 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:37:05,503 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:37:05,503 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:37:05,503 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:37:05,503 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:37:14,612 - INFO - robot.Connect:213 - Connecting to robot 192.168.5.1...
+2026-10-28 18:37:14,623 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:29999
+2026-10-28 18:37:14,625 - INFO - connection.connect:239 - TCP connection successful: 192.168.5.1:30004
+2026-10-28 18:37:14,625 - INFO - robot.Connect:225 - Robot connected successfully: 192.168.5.1
+2026-10-28 18:37:15,670 - INFO - robot.StartFeedbackMonitor:293 - Status monitoring started
+2026-10-28 18:37:23,771 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:37:23,772 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:37:23,772 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:29999
+2026-10-28 18:37:23,772 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:37:23,772 - INFO - connection.disconnect:295 - TCP connection closed: 192.168.5.1:30004
+2026-10-28 18:37:23,772 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:37:23,773 - INFO - robot.StopFeedbackMonitor:303 - Status monitoring stopped
+2026-10-28 18:37:23,773 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
+2026-10-28 18:37:23,773 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:37:23,773 - INFO - robot.Disconnect:261 - Robot disconnected: 192.168.5.1
+2026-10-28 18:37:23,774 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:30004
+2026-10-28 18:37:23,774 - INFO - connection._stop_reconnect_loop:127 - Automatic reconnection stopped: 192.168.5.1:29999
