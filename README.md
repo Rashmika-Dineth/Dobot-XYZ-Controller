@@ -72,6 +72,10 @@ work surface, controller equipment and sample items used for the project.
 - Vacume and Pressure Unit (Vacume controller)
 ![](./images/Image4.jpg)
 
+### Connection Diagram 
+
+![](./images/Image5.jpg)
+
 ### Software
 
 -   Python.
